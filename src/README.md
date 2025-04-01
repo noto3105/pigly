@@ -29,6 +29,8 @@ laravel8.83.8
 Mysql 8.0.26  
 
 ## ER図
+![pigry_ER](https://github.com/user-attachments/assets/8dd8bac7-9e67-48e4-91a6-9e0e3fbaf456)
+
 
 ## URL
 開発環境：http://localhost/  
