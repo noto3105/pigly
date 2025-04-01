@@ -1,0 +1,232 @@
+.logs-content {
+    max-width: 2400px;
+    height: 850px;
+    margin: 0 auto;
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading th {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+
+.goal-weight th {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-right: 1px solid #CDCDCD;
+}
+
+.goal-weight span {
+    font-size: 14px;
+    color: #888;
+}
+
+.form-group {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.search-form__date {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form__btn {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-btn {
+    background: linear-gradient(to right, #c48eff, #f3a6ff);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+}
+
+.log__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.log__label {
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+}
+
+.log__row:hover {
+    background: #F7F7F7;
+}
+
+.log__data {
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
+.log__update-btn {
+    text-align: center;
+}
+
+.log__update img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+svg.w-5.h-5 {
+    width: 30px;
+    height: 30px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pagination .active {
+    background: #c48eff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+/*モーダル*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+}
+
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: white;
+    width: 40%;
+    max-width: 500px;
+    margin: 5% auto;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.input-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 6px;
+}
+
+.label span {
+    background-color: red;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.input-with-unit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.cancel-btn,
+.register-btn {
+    width: 50%;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.cancel-btn {
+    background-color: #E0DFDE;
+    color: #000;
+    text-decoration: none;
+}
+
+.register-btn {
+    background: linear-gradient(to right, #c48eff, #f3a6ff);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.input-item span {
+    white-space: nowrap;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #E0DFDE;
+}
+
+.form-item__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}

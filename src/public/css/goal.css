@@ -1,0 +1,80 @@
+.log-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.edit-form-container {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.log__title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.input-item {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-with-unit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-with-unit input {
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.unit {
+    font-size: 14px;
+    color: #555;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cancel-btn,
+.update-btn {
+    min-width: 100px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.cancel-btn {
+    background-color: #ccc;
+    color: #000;
+    text-decoration: none;
+}
+
+.update-btn {
+    background: linear-gradient(to right, #c48eff, #f3a6ff);
+    color: white;
+}
+
+.form-item__error {
+    color: red;
+    font-size: 16px;
+}
